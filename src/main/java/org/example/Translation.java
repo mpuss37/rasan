@@ -46,7 +46,7 @@ public class Translation {
             outputText = jsonResponse.getJSONObject("responseData").getString("translatedText");
             System.out.println("From (ResourceText : " + resourceText + ", " + outLang + ") To (Translate text : " + outputText + ", : " + targetLang+")");
         } catch (IOException e) {
-            System.err.println(apiUrl);
+            System.err.println("check your proxy/connection");
         }
 
     }
