@@ -22,14 +22,14 @@ public class Main {
         } else if (args[0].equals("-h") || args[0].equals("--help")) {
             System.out.println("rasan-translate (version 1.0, revision 1)");
             System.out.println("Usage:\n" +
-                    " kuncen [OPTIONS]...[VALUES]\t\n" +
+                    " rasan [OPTIONS]...[VALUES]\t\n" +
                     "  -f, --from 'source' [from] [to]    Specify source-lang (id for Indonesian) and target-lang (eng for English).\n" +
                     "  -t, --to   'source' [to]    Specifiy target-lang (id for Indonesian) will automatically detect the source-lang.\n" +
                     "  -l, --list   'acronym,name'    List target-lang (id for Indonesian) will loop format data : acronym,name.\n" +
                     "  -h, --help          Display usage,options and help.\n");
         } else {
             System.out.println("rasan: missing operand\n" +
-                    "Try 'kuncen -h or --help' for more information.");
+                    "Try 'rasan -h or --help' for more information.");
         }
     }
 }
