@@ -10,8 +10,8 @@ https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe (based win
 
 next step :
 git clone https://github.com/mpuss37/rasan.git
-cd rasan/
-./install.sh
+&& cd rasan/gradlew jar
+&& ./install.sh
 Congratulations, the program has been installed
 
 Usage : 
