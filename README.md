@@ -1,5 +1,5 @@
 # rasan-rasan
-rasan-rasan itself in Javanese means (likes to talk to people) rasan is a command line program that allows users to translate text quickly and simply
+rasan-rasan itself in Javanese means ( ngibah / Banyak Omong ) rasan is a command line program that allows users to translate text quickly and simply
 
 install it first :
 pacman -S jdk-openjdk (based arch)
