@@ -39,10 +39,11 @@ public class Translation {
             resourceText = firstMatch.getString("segment");
             if (pages == "from") {
                 outLang = firstMatch.getString("target");
+                targetLang = firstMatch.getString("source");
             }else {
-                outLang = firstMatch.getString("Autodetect");
+                outLang = jsonResponse.getJSONObject("responseData").getString("detectedLanguage");
+                targetLang = firstMatch.getString("target");
             }
-            targetLang = firstMatch.getString("source");
             outputText = jsonResponse.getJSONObject("responseData").getString("translatedText");
             System.out.println("From (ResourceText : " + resourceText + ", " + outLang + ") To (Translate text : " + outputText + ", : " + targetLang+")");
         } catch (IOException e) {

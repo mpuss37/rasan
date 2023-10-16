@@ -1,4 +1,5 @@
-# rasan
+# rasan-rasan
+Kuncen is a password management program built with a simple, secure and transparent CLI-based designed with the aim of guiding users in password management so that their data remains safe. The name "Kuncen" was chosen to describe the program's role as administrator and keeper of user passwords, similar to the role of "Kuncen Royal" which guarded palaces on the island of Java in Indonesia.
 rasan-rasan itself in Javanese means (likes to talk to people) rasan is a command line program that allows users to translate text quickly and simply
 
 install it first :
@@ -15,7 +16,7 @@ Congratulations, the program has been installed
 
 Usage : 
 rasan [OPTIONS]...[VALUES]
--f, --from 'source' [from] [to]    Specify source-lang (id for Indonesian) and target-lang (eng for English)..
+-f, --from 'source' [from] [to]    Specify source-lang (id for Indonesian) and target-lang (eng for English).
 -t, --to   'source' [to]    Specifiy target-lang (id for Indonesian) will automatically detect the source-lang.
 -l, --list   'acronym,name'    List target-lang (id for Indonesian) will loop format data : acronym,name.
 -h, --help          Display usage,options and help.

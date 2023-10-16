@@ -16,7 +16,7 @@ public class Main {
         } else if (args.length == 3 && args[0].equals("-t") || args[0].equals("--to")) {
             resourceText = String.valueOf(args[1]);
             targetLang = String.valueOf(args[2]);
-            translation.setApiUrl("to", resourceText, "Autodetect", targetLang);
+            translation.setApiUrl("to", resourceText, "autodetect", targetLang);
         } else if (args.length == 1 && args[0].equals("-l") || args[0].equals("--list")) {
             modelData.getData();
         } else if (args[0].equals("-h") || args[0].equals("--help")) {

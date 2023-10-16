@@ -1,7 +1,7 @@
 package org.example;
 
 public class ModelData {
-    private String[] values = {
+    String[] values = {
             "af-ZA,Afrikaans",
             "sq-AL,Albanian",
             "am-ET,Amharic",
