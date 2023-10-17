@@ -1,4 +1,5 @@
 # rasan-rasan
+Kuncen is a password management program built with a simple, secure and transparent CLI-based designed with the aim of guiding users in password management so that their data remains safe. The name "Kuncen" was chosen to describe the program's role as administrator and keeper of user passwords, similar to the role of "Kuncen Royal" which guarded palaces on the island of Java in Indonesia.
 rasan-rasan itself in Javanese means (likes to talk to people) rasan is a command line program that allows users to translate text quickly and simply
 
 install it first :
